@@ -21,6 +21,7 @@ public final class Daka extends JavaPlugin {
 
         this.dakaStatus = new HashMap<>();
         this.getCommand("daka").setExecutor(this);
+        System.out.println("[ServerMessage] dakaPlugin has been enabled!");
 
         // Schedule the task to reset dakaStatus every day at 0:00
         long currentTime = System.currentTimeMillis();
