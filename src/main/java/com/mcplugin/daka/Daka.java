@@ -41,7 +41,7 @@ public final class Daka extends JavaPlugin {
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-        if (command.getName().equalsIgnoreCase("daka")) {
+        if (command.getName().equalsIgnoreCase("daka") || command.getName().equalsIgnoreCase("dk")) {
             if (sender instanceof Player) {
                 Player player = (Player) sender;
                 UUID playerUUID = player.getUniqueId();
