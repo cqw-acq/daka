@@ -1,6 +1,6 @@
 name: daka
 version: 1.0
-main: com.mcplugin.daka
+main: com.mcplugin.daka.Daka
 description: 一个简单的打卡插件，当玩家执行 /daka 时给予金币奖励，每天0点重置。
 commands:
   daka:
