@@ -1,0 +1,4 @@
+name: daka
+version: '${version}'
+main: com.mcplugin.daka.Daka
+api-version: '1.20'
