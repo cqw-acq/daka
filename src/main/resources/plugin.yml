@@ -1,4 +1,7 @@
 name: daka
-version: '${version}'
-main: com.mcplugin.daka.Daka
-api-version: '1.20'
+version: 1.0
+main: com.mcplugin.daka
+description: 一个简单的打卡插件，当玩家执行 /daka 时给予金币奖励，每天0点重置。
+commands:
+  daka:
+    description: 打卡命令，每天只能打卡一次并获得奖励。
